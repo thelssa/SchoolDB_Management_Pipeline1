@@ -3,13 +3,6 @@ title: "Projet de Gestion des Élèves et Enseignants avec PostgreSQL et Python"
 author:
   - Thelma LUM
 date: "18/09/2024"
-geometry:
-  - top=20mm
-  - left=20mm
-  - right=10mm
-  - bottom=10mm
-  - heightrounded
-bibliography: [biblio.bib]
 ---
 
 ## Description du projet
