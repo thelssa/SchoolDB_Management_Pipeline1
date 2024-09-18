@@ -1,8 +1,8 @@
 ---
-title: "Projet de Gestion des Élèves et Enseignants avec PostgreSQL et Python"
-author:
+Titre: "Projet de Gestion des Élèves et Enseignants avec PostgreSQL et Python"
+Auteur:
   - Thelma LUM
-date: "18/09/2024"
+Date: "18/09/2024"
 ---
 
 ## Description du projet
