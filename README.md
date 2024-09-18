@@ -1,4 +1,16 @@
-# Projet de Gestion des Élèves et Enseignants avec PostgreSQL et Python
+---
+title: "Projet de Gestion des Élèves et Enseignants avec PostgreSQL et Python"
+author:
+  - Thelma LUM
+date: "18/09/2024"
+geometry:
+  - top=20mm
+  - left=20mm
+  - right=10mm
+  - bottom=10mm
+  - heightrounded
+bibliography: [biblio.bib]
+---
 
 ## Description du projet
 
@@ -101,6 +113,3 @@ Vous pouvez personnaliser le projet en modifiant :
 - **PostgreSQL** pour la gestion de la base de données.
 - **Python** avec la bibliothèque **psycopg2** pour l'interaction avec la base de données.
 
-## Auteurs
-
-- Développeur principal : **Thelma LUM**
