@@ -9,8 +9,8 @@ Ce projet a pour objectif de créer une base de données pour gérer les élève
 
 ## Fichiers inclus
 
-- `setup_database.sql` : Fichier SQL contenant les instructions pour créer la base de données, les tables, et insérer les données initiales (15 élèves et 6 enseignants).
-- `automate_pipeline.py` : Script Python permettant de se connecter à la base de données, d'extraire et d'analyser les données (association élèves-enseignants et comptage des élèves par enseignant).
+- `bd_ecole.sql` : Fichier SQL contenant les instructions pour créer la base de données, les tables, et insérer les données initiales (15 élèves et 6 enseignants).
+- `data_automation.py` : Script Python permettant de se connecter à la base de données, d'extraire et d'analyser les données (association élèves-enseignants et comptage des élèves par enseignant).
 
 ## Prérequis
 
@@ -32,11 +32,11 @@ Avant de démarrer, assurez-vous d'avoir installé :
 3. Exécutez le fichier SQL pour créer la base de données et insérer les données d'exemple :
 
    ```bash
-   psql -U postgres -f setup_database.sql
+   psql -U postgres -f bd_ecole.sql
    ```
 
    Cette commande crée :
-   - La base de données `Ecole`.
+   - La base de données `ecole`.
    - Les tables `eleves` et `enseignants`.
    - Insère 15 élèves et 6 enseignants dans les tables respectives.
 
@@ -46,11 +46,11 @@ Avant de démarrer, assurez-vous d'avoir installé :
 2. Exécutez le script Python pour extraire et analyser les données :
 
    ```bash
-   python automate_pipeline.py
+   python data_automation.py
    ```
 
    Ce script :
-   - Se connecte à la base de données `Ecole`.
+   - Se connecte à la base de données `ecole`.
    - Extrait les données des tables `eleves` et `enseignants`.
    - Associe les élèves à leurs enseignants selon le numéro de classe.
    - Affiche combien d'élèves chaque enseignant a sous sa responsabilité.
@@ -93,7 +93,7 @@ Le script Python affichera dans la console :
 ## Personnalisation
 
 Vous pouvez personnaliser le projet en modifiant :
-- Les données insérées dans les tables (dans le fichier `setup_database.sql`).
+- Les données insérées dans les tables (dans le fichier `bd_ecole.sql`).
 - Le traitement des données dans le script Python (par exemple, ajouter des filtres ou des analyses supplémentaires).
 
 ## Dépendances
