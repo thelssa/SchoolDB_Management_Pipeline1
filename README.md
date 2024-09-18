@@ -103,8 +103,4 @@ Vous pouvez personnaliser le projet en modifiant :
 
 ## Auteurs
 
-- Développeur principal : **[Votre Nom]**
-
----
-
-C'est un modèle de fichier `README.md` que vous pouvez inclure dans votre projet. Si vous avez des besoins spécifiques pour ce document, n'hésitez pas à demander !
+- Développeur principal : **Thelma LUM**
